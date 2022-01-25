@@ -4,7 +4,7 @@ USTC每日健康打卡
 
 所使用的python库
 
-* selenium 自动化测试必须
+* selenium 自动化测试所需
 
 * PIL, pytesseract 验证码处理
 
