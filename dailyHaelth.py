@@ -29,7 +29,7 @@ if __name__ == '__main__':
     headers = {
         "User-Agent": "Mozilla/5.0(Windows NT 10.0;WOW64) AppleWebKit/537.36(KHTML,likeGecko)Chrome/63.0.3239.132Safari/537.36"
     }
-    s = Service("D:\\python project\\Bilibili\\msedgedriver.exe")
+    s = Service("msedgedriver.exe")
     driver = webdriver.Edge(service=s)
     driver.get("https://passport.ustc.edu.cn/login?service=https%3A%2F%2Fweixine.ustc.edu.cn%2F2020%2Fcaslogin")
 
